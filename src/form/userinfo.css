@@ -1,0 +1,113 @@
+.bod {
+  margin-left: 280px;
+  margin-right: 280px;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(241, 101, 77);
+}
+
+.labelp {
+  width: 200px;
+  display: inline-block;
+}
+
+.supersc {
+  color: rgb(255, 5, 5);
+}
+
+.ip {
+  display: inline;
+  border-radius: 6px;
+  border-color: rgb(134, 129, 127);
+  border-spacing: 10px;
+  width: 15cm;
+  height: 0.8cm;
+  border-style: solid;
+  margin: 5px;
+  padding-left: 5px;
+}
+
+.ipdob {
+  display: inline;
+  border-radius: 6px;
+  border-color: rgb(134, 129, 127);
+  border-spacing: 10px;
+  width: 10.84cm;
+  height: 0.8cm;
+  border-style: solid;
+  margin: 5px;
+}
+
+.ipage {
+  display: inline;
+  border-radius: 6px;
+  border-color: rgb(134, 129, 127);
+  border-spacing: 10px;
+  width: 2.5cm;
+  height: 0.8cm;
+  border-style: solid;
+  margin: 5px;
+}
+
+.diiv {
+  border-bottom: rgb(134, 129, 127) solid;
+  border-width: 1px;
+}
+
+.selectarea {
+  width: 15.3cm;
+  border-width: 2px;
+  height: 1cm;
+}
+
+.cmds {
+  position: relative;
+  left: 5.5cm;
+  font-size: 14px;
+}
+
+.txt {
+  width: 7.7cm;
+  height: 1.5cm;
+  border-width: 2px;
+  vertical-align: top;
+}
+
+.kbox {
+  width: 4cm;
+  margin: 0.2cm;
+}
+
+.caution {
+  margin-right: 7cm;
+  margin-left: 7cm;
+  border: rgb(134, 129, 127);
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 9px;
+  padding: 10px;
+}
+
+.cmds {
+  position: relative;
+  left: 5.5cm;
+  font-size: 14px;
+}
+
+.butnu {
+  background-color: rgb(253, 220, 220);
+  border-color: rgb(253, 115, 100);
+  color: rgb(170, 66, 66);
+  border-style: solid;
+  border-radius: 7px;
+  width: 5cm;
+  height: 1cm;
+  margin-left: 150px;
+}
+
+.butnu:hover {
+  background-color: salmon;
+  color: rgb(114, 16, 16);
+}

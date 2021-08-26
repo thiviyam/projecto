@@ -1,0 +1,274 @@
+.bod {
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-left: 4cm;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(241, 118, 97);
+}
+
+.labelp {
+  width: 200px;
+  display: inline-block;
+}
+
+.supersc {
+  color: rgb(255, 5, 5);
+}
+
+.ip {
+  display: inline;
+  border-radius: 6px;
+  border-color: rgb(201, 199, 199);
+  border-spacing: 10px;
+  width: 15cm;
+  height: 0.8cm;
+  border-style: solid;
+  margin: 5px;
+  padding-left: 5px;
+}
+
+.ipdob {
+  display: inline;
+  border-radius: 6px;
+  border-color: rgb(201, 199, 199);
+  border-spacing: 10px;
+  width: 10.84cm;
+  height: 0.8cm;
+  border-style: solid;
+  margin: 5px;
+}
+
+.ipage {
+  display: inline;
+  border-radius: 6px;
+  border-color: rgb(201, 199, 199);
+  border-spacing: 10px;
+  width: 2.5cm;
+  height: 0.8cm;
+  border-style: solid;
+  margin: 5px;
+}
+
+.uploadpht {
+  width: 270px;
+  display: inline-block;
+}
+
+.cmdsupload {
+  position: relative;
+  left: 7.1cm;
+  font-size: 14px;
+}
+
+.phtposlab {
+  position: absolute;
+  top: 7cm;
+  left: 27cm;
+}
+
+.phtpos {
+  position: absolute;
+  top: 7.7cm;
+  left: 27cm;
+}
+
+.phtlab {
+  position: absolute;
+  top: 12.3cm;
+  left: 27.2cm;
+}
+
+.diiv {
+  border-bottom: rgb(201, 199, 199) solid;
+  border-width: 1px;
+}
+
+.selectarea {
+  width: 15.4cm;
+  border-width: 2px;
+  height: 1cm;
+}
+
+.cmds {
+  position: relative;
+  left: 5.5cm;
+  font-size: 14px;
+}
+
+.txt {
+  width: 7.7cm;
+  height: 1.5cm;
+  border-width: 2px;
+  vertical-align: top;
+}
+
+.kbox {
+  width: 4cm;
+  margin-left: 1cm;
+}
+
+.labphttit {
+  top: 25.3cm;
+}
+
+.labpht {
+  top: 26cm;
+  left: 27.2cm;
+}
+
+.labupl {
+  top: 30.7cm;
+  left: 27.4cm;
+}
+.agreem {
+  color: rgb(114, 16, 16);
+}
+
+.caution {
+  margin-right: 10cm;
+  margin-left: 10cm;
+  border: rgb(201, 199, 199) solid;
+
+  border-radius: 9px;
+  padding: 15px;
+}
+
+.below {
+  margin-left: 600px;
+}
+
+.butn {
+  background-color: rgb(253, 220, 220);
+  border-color: rgb(253, 115, 100);
+  color: rgb(170, 66, 66);
+  border-style: solid;
+  border-radius: 7px;
+  width: 5cm;
+  height: 1cm;
+  margin-left: 140px;
+}
+
+.butn:hover {
+  background-color: salmon;
+  color: rgb(114, 16, 16);
+}
+
+@media screen and (max-width: 1520px) {
+  .butn {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1493px) {
+  .bod {
+    padding-left: 113.3px;
+  }
+
+  .cmds {
+    position: inherit;
+    font-size: 14px;
+  }
+
+  .cmdsupload {
+    position: inherit;
+
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1459px) {
+  .bod {
+    padding-left: 113.3px;
+  }
+  .labelp {
+    display: inline-flex;
+  }
+
+  .nofyrs {
+    display: block;
+    width: 100px;
+  }
+
+  .nofyrs-label {
+    display: inline;
+  }
+
+  .caution {
+    margin-right: 4cm;
+    margin-left: 4cm;
+    border: rgb(134, 129, 127);
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 9px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1391px) {
+  .bod {
+    padding-left: 113.3px;
+  }
+  .labelp {
+    width: 170px;
+  }
+
+  .ipage {
+    display: inline;
+    width: 170px;
+    height: 0.8cm;
+    border-style: solid;
+    margin: 2px;
+  }
+
+  .butn {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 1357px) {
+  .labelp {
+    width: 170px;
+  }
+
+  .ipage {
+    display: inherit;
+    width: 170px;
+    height: 0.8cm;
+    border-style: solid;
+    margin: 2px;
+  }
+
+  .butn {
+    width: 160px;
+    margin-left: 110px;
+  }
+}
+
+@media screen and (max-width: 1311px) {
+  .caution {
+    margin-right: 23px;
+    margin-left: 23px;
+    border: rgb(134, 129, 127);
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 9px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1311px) {
+  .butn {
+    width: 150px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 1063px) {
+  .butn {
+    width: 120px;
+    margin-left: 40px;
+  }
+}
